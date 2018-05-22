@@ -1,5 +1,6 @@
 === Startup Playbook
+Sam Altman; Gregory Koberger
 
-# subject_tags: Business
+:dsa: {'subjects': ['Business']}
 
 Testing

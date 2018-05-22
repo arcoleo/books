@@ -1,4 +1,5 @@
-=== The Founder's Dilemnas
+=== The Founder's Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup
+Noam Wasserman
 
 :dsa: {'subjects': ['Business']}
 

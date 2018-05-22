@@ -36,7 +36,7 @@ def generate_output(books):
                 outline[subject]['books'].append({
                     'title': book.get('title'), 
                     'filename': book.get('filename'),
-                    'authors': ';'.join(book.get('authors'))
+                    'authors': '; '.join(book.get('authors'))
                 })
             else:
                 outline[subject] = {
@@ -44,7 +44,7 @@ def generate_output(books):
                     'books': [{
                         'title': book.get('title'), 
                         'filename': book.get('filename'),
-                        'authors': ';'.join(book.get('authors'))
+                        'authors': '; '.join(book.get('authors'))
                     }]}
 
     for topic, value in sorted(outline.items()):
@@ -81,6 +81,7 @@ for curr_file in file_list:
             if idx == author_line:
                 current_authors = line.split(';')
                 current_authors = list(map(str.strip, current_authors))
+                # print('-- %s --' % str(current_authors))
             if line.startswith(':dsa:'):
                 # print('Hello -- %s' % line)
                 current_line = line[len(':dsa:'):].strip()

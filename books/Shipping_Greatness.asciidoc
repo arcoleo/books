@@ -1,4 +1,5 @@
-=== Shipping Greatness
+=== Shipping Greatness: Practical lessons on building and launching outstanding software, learned on the job at Google and Amazon
+Chris Vander Mey
 
 :dsa: {'subjects': ['Business']}
 

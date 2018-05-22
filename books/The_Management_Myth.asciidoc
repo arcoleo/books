@@ -1,4 +1,5 @@
-=== The Management Myth
+=== The Management Myth: Why the 'Experts' Keep Getting It Wrong
+Matthew Stewart; William Hughes
 
 :dsa: {'subjects': ['Business']}
 

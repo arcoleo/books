@@ -1,5 +1,6 @@
-=== The Advantage
+=== The Advantage: Why Organizational Health Trumps Everything Else in Business
+Patrick Lencioni
 
-# subject_tags: Business
+:dsa: {'subjects': ['Business']}
 
 Testing

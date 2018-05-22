@@ -1,4 +1,5 @@
 === The New One Minute Manager
+Ken Blanchard; Dan Woren
 
 :dsa: {'subjects': ['Business']}
 

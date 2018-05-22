@@ -1,5 +1,6 @@
-=== Sprint
+=== Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days
+Jake Knapp; John Zeratsky
 
-# subject_tags: Business
+:dsa: {'subjects': ['Business']}
 
 Testing

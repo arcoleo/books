@@ -1,6 +1,6 @@
 === The Four Steps to the Epiphany
 Steve Blank
 
-:dsa: {'subjects': ['Business'], 'authors': ['Steve Blank']}
+:dsa: {'subjects': ['Business']}
 
 Testing

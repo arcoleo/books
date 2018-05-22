@@ -1,5 +1,6 @@
-=== The ENtrepreneur Mind
+=== The Entrepreneur Mind: 100 Essential Beliefs, Characteristics, and Habits of Elite Entrepreneurs
+Kevin D. Johnson
 
-# subject_tags: Business
+:dsa: {'subjects': ['Business']}
 
 Testing

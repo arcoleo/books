@@ -1,4 +1,5 @@
-=== The Startup Owner's Manual
+=== The Startup Owner's Manual: The Step-by-Step Guide for Building a Great Company
+ Steve Blank; Bob Dorf
 
 :dsa: {'subjects': ['Business']}
 

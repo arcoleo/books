@@ -1,5 +1,6 @@
-=== Hello Startup
+=== Hello, Startup: A Programmer's Guide to Building Products, Technologies, and Teams
+Yevgeniy Brikman
 
-# subject_tags: Business
+:dsa: {'subjects': ['Business']}
 
 Testing

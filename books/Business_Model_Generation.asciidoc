@@ -1,4 +1,5 @@
 === Business Model Generation
+Alexander Osterwalder; Yves Pigneur
 
 :dsa: {'subjects': ['Business']}
 

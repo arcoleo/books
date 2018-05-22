@@ -1,4 +1,5 @@
-=== Elon Musk
+=== Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future
+Ashlee Vance; Fred Sanders
 
 :dsa: {'subjects': ['Business']}
 

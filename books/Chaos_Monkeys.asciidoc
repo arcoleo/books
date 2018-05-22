@@ -1,4 +1,5 @@
-=== Chaos Monkeys
+=== Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley
+Antonio Garcia Martinez
 
 :dsa: {'subjects': ['Business']}
 

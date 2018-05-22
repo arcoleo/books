@@ -1,5 +1,6 @@
-=== How to be a Chief Operating Officer
+=== How to be a Chief Operating Officer: 16 Disciplines for Success
+Jennifer Geary
 
-# subject_tags: Business
+:dsa: {'subjects': ['Business']}
 
 Testing

@@ -1,4 +1,5 @@
-=== Zero to One
+=== Zero to One: Notes on Startups, or How to Build the Future
+Peter Thiel; Blake Masters
 
 :dsa: {'subjects': ['Business']}
 

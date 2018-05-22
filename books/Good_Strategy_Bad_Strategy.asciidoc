@@ -1,4 +1,5 @@
-=== Good Strategry, Bad Strategy
+=== Good Strategy/Bad Strategy: The Difference and Why It Matters
+Richard P. Rumelt; Sean Runnette
 
 :dsa: {'subjects': ['Business']}
 
