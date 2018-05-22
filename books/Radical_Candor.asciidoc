@@ -3,4 +3,6 @@ Kim Scott
 
 :dsa: {'subjects': ['Business']}
 
+TIP: Rating: Excellent
+
 Testing
