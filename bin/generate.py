@@ -19,8 +19,10 @@ def generate_output(args, books):
 
     if args.table:
         divider = ' | '
+        prefix = '| '
     else:
         divider = ', '
+        prefix = ''
 
     for book in books:
         # Get subjects
@@ -57,7 +59,7 @@ def generate_output(args, books):
                 output.append('')
             title = 'link:books/%(filename)s[%(title)s]' % book
             authors = '%(authors)s' % book
-            line = '%s%s%s' % (title, divider, authors)
+            line = '%s%s%s%s' % (prefix, title, divider, authors)
             output.append(line)
 
     if args.table:
