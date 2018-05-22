@@ -3,40 +3,40 @@
 
 == Business
 
-link:books/Answering_the_Ultimate_Question.asciidoc[Answering The Ultimate Question, ]
+link:books/Answering_the_Ultimate_Question.asciidoc[Answering The Ultimate Question], 
 
-link:books/Boundries_for_Leaders.asciidoc[Boundries for Leaders, ]
+link:books/Boundries_for_Leaders.asciidoc[Boundries for Leaders], 
 
-link:books/Business_Model_Generation.asciidoc[Business Model Generation, ]
+link:books/Business_Model_Generation.asciidoc[Business Model Generation], 
 
-link:books/Certain_To_Win.asciidoc[Certain To Win, ]
+link:books/Certain_To_Win.asciidoc[Certain To Win], 
 
-link:books/Chaos_Monkeys.asciidoc[Chaos Monkeys, ]
+link:books/Chaos_Monkeys.asciidoc[Chaos Monkeys], 
 
-link:books/Elon_Musk.asciidoc[Elon Musk, ]
+link:books/Elon_Musk.asciidoc[Elon Musk], 
 
-link:books/Good_Strategy_Bad_Strategy.asciidoc[Good Strategry, Bad Strategy, ]
+link:books/Good_Strategy_Bad_Strategy.asciidoc[Good Strategry, Bad Strategy], 
 
-link:books/Radical_Candor.asciidoc[Radical Candor, ]
+link:books/Radical_Candor.asciidoc[Radical Candor], 
 
-link:books/Shipping_Greatness.asciidoc[Shipping Greatness, ]
+link:books/Shipping_Greatness.asciidoc[Shipping Greatness], 
 
-link:books/The_Founders_Dilemnas.asciidoc[The Founder's Dilemnas, ]
+link:books/The_Founders_Dilemnas.asciidoc[The Founder's Dilemnas], 
 
-link:books/The_Four_Steps_to_the_Epiphany.asciidoc[The Four Steps to the Epiphany, Steve Blank]
+link:books/The_Four_Steps_to_the_Epiphany.asciidoc[The Four Steps to the Epiphany], Steve Blank
 
-link:books/The_Lean_Startup.asciidoc[The Lean Startup, ]
+link:books/The_Lean_Startup.asciidoc[The Lean Startup], 
 
-link:books/The_Management_Myth.asciidoc[The Management Myth, ]
+link:books/The_Management_Myth.asciidoc[The Management Myth], 
 
-link:books/The_New_One_Minute_Manager.asciidoc[The New One Minute Manager, ]
+link:books/The_New_One_Minute_Manager.asciidoc[The New One Minute Manager], 
 
-link:books/The_Startup_J_Curve.asciidoc[The Startup J Curve, ]
+link:books/The_Startup_J_Curve.asciidoc[The Startup J Curve], 
 
-link:books/The_Startup_Owners_Manual.asciidoc[The Startup Owner's Manual, ]
+link:books/The_Startup_Owners_Manual.asciidoc[The Startup Owner's Manual], 
 
-link:books/The_Startups.asciidoc[The Startups, ]
+link:books/The_Startups.asciidoc[The Startups], 
 
-link:books/The_Why_of_Work.asciidoc[The Why of Work, ]
+link:books/The_Why_of_Work.asciidoc[The Why of Work], 
 
-link:books/Zero_to_One.asciidoc[Zero to One, ]
+link:books/Zero_to_One.asciidoc[Zero to One], 
