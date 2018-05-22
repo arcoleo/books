@@ -43,21 +43,23 @@ def generate_output(books):
         output.append('')
         level = '=' * value['level']
         output.append('%s %s' % (level, topic))
+        output.append('|====================')
         # print('--! %s' % value)
         for book in value['books']:
             # print('----! %s' % str(book))
             output.append('')
             output.append('link:books/%(filename)s[%(title)s] | %(authors)s' % book)
-        
+
+    output.append('|====================')    
 
 
     # pprint(outline)
 
     # print('------')
-    print('|====================')
+    
     for line in output:
         print(line)
-    print('|====================')
+    
 
 
 

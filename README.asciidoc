@@ -1,8 +1,8 @@
-|====================
 = Welcome to the Books Wiki
   David Arcoleo <david@arcoleo.org>
 
 == Business
+|====================
 
 link:books/Answering_the_Ultimate_Question.asciidoc[Answering The Ultimate Question] | Richard Owen; Melissa Edris
 
