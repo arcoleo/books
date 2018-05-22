@@ -1,24 +1,14 @@
 #!/usr/bin/env python3
 
+import argparse
 from ast import literal_eval
+import logging
 import os
 from pprint import pprint
 
-current_path = os.path.dirname(os.path.abspath(__file__))
-# print(current_path)
 
-file_list = []
-for (dirpath, dirnames, filenames) in os.walk(os.path.join(current_path, '..', 'books')):
-    file_list.extend(filenames)
-    break
-file_list = sorted(file_list)
-# pprint(file_list)
 
-# print(f)
-
-toc_dict = {}
 books_list = []
-
 # parse_tags(tag_dict):
 
 def generate_output(books):
@@ -57,43 +47,69 @@ def generate_output(books):
         for book in value['books']:
             # print('----! %s' % str(book))
             output.append('')
-            output.append('link:books/%(filename)s[%(title)s], %(authors)s' % book)
+            output.append('link:books/%(filename)s[%(title)s] | %(authors)s' % book)
         
 
 
     # pprint(outline)
 
     # print('------')
+    print('|====================')
     for line in output:
         print(line)
+    print('|====================')
 
-for curr_file in file_list:
-    open_file = os.path.join(current_path, '..', 'books', curr_file)
-    with open(open_file) as f:
-        lines = f.readlines()
-        current_title = None
-        dsa_dict = None
-        author_line = None
-        for idx, line in enumerate(lines):
-            if line.startswith('==='):
-                current_title = line[len('==='):].strip()
-                author_line = idx + 1
-            if idx == author_line:
-                current_authors = line.split(';')
-                current_authors = list(map(str.strip, current_authors))
-                # print('-- %s --' % str(current_authors))
-            if line.startswith(':dsa:'):
-                # print('Hello -- %s' % line)
-                current_line = line[len(':dsa:'):].strip()
-                dsa_dict = literal_eval(current_line)
-                dsa_dict['title'] = current_title
-                dsa_dict['filename'] = curr_file
-                dsa_dict['authors'] = current_authors
-                books_list.append(dsa_dict)
-                # print(dsa_dict)
 
-# print('--- Books List ---')
-# pprint(books_list)
 
-# print('--- Generated ---')
-generate_output(books_list)
+def main():
+    file_list = []
+
+    current_path = os.path.dirname(os.path.abspath(__file__))
+    # print(current_path)
+
+    
+    for (dirpath, dirnames, filenames) in os.walk(os.path.join(current_path, '..', 'books')):
+        file_list.extend(filenames)
+        break
+    file_list = sorted(file_list)
+    # pprint(file_list)
+
+    # print(f)
+
+    toc_dict = {}
+    
+
+
+    for curr_file in file_list:
+        open_file = os.path.join(current_path, '..', 'books', curr_file)
+        with open(open_file) as f:
+            lines = f.readlines()
+            current_title = None
+            dsa_dict = None
+            author_line = None
+            for idx, line in enumerate(lines):
+                if line.startswith('==='):
+                    current_title = line[len('==='):].strip()
+                    author_line = idx + 1
+                if idx == author_line:
+                    current_authors = line.split(';')
+                    current_authors = list(map(str.strip, current_authors))
+                    # print('-- %s --' % str(current_authors))
+                if line.startswith(':dsa:'):
+                    # print('Hello -- %s' % line)
+                    current_line = line[len(':dsa:'):].strip()
+                    dsa_dict = literal_eval(current_line)
+                    dsa_dict['title'] = current_title
+                    dsa_dict['filename'] = curr_file
+                    dsa_dict['authors'] = current_authors
+                    books_list.append(dsa_dict)
+                    # print(dsa_dict)
+
+    # print('--- Books List ---')
+    # pprint(books_list)
+
+    # print('--- Generated ---')
+    generate_output(books_list)
+
+if __name__ == '__main__':
+    main()
