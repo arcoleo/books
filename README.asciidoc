@@ -1,5 +1,6 @@
 = Welcome to the Books Wiki
-  David Arcoleo <david@arcoleo.org>
+David Arcoleo <david@arcoleo.org>
+:toc:
 
 == Business
 |====================
