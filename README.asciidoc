@@ -2,13 +2,13 @@
   David Arcoleo <david@arcoleo.org>
 
 == Business
-asdf
 
-link:books/Answering_the_Ultimate_Question.asciidoc[Answering The Ultimate Question], Richard Owen; Melissa Edris
+|====================
+link:books/Answering_the_Ultimate_Question.asciidoc[Answering The Ultimate Question] | Richard Owen; Melissa Edris
 
-link:books/Boundries_for_Leaders.asciidoc[Boundries for Leaders], Henry Cloud
+link:books/Boundries_for_Leaders.asciidoc[Boundries for Leaders] | Henry Cloud
 
-link:books/Business_Model_Generation.asciidoc[Business Model Generation], Alexander Osterwalder; Yves Pigneur
+link:books/Business_Model_Generation.asciidoc[Business Model Generation] | Alexander Osterwalder; Yves Pigneur
 
 link:books/Certain_To_Win.asciidoc[Certain To Win], Chet Richards
 
@@ -57,3 +57,4 @@ link:books/The_Startups.asciidoc[The Startups],
 link:books/The_Why_of_Work.asciidoc[The Why of Work: How Great Leaders Build Abundant Organizations that Win], Dave Ulrich; Kevin T. Collins
 
 link:books/Zero_to_One.asciidoc[Zero to One: Notes on Startups, or How to Build the Future], Peter Thiel; Blake Masters
+|====================
