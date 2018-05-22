@@ -1,5 +1,6 @@
 === Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity
 Kim Scott
+:toc:
 
 :dsa: {'subjects': ['Business']}
 
@@ -9,19 +10,19 @@ TIP: Rating: Excellent
 
 adsf
 
-===== Build Radically Candid Relationships
+===== Build Radically Candid Relationships: Bringing your whole self to work
 
 adsf
 
-===== Get, Give, and Encourage Guidence
+===== Get, Give, and Encourage Guidence: Creating a culture of open communication
 
 adsf
 
-===== Understand What Motivates Each Person On Your Team
+===== Understand What Motivates Each Person On Your Team: Helping people take a step in the direction of their dreams
 
 adsf
 
-===== Drive Results Collaboratively
+===== Drive Results Collaboratively: Telling people what to do doesn't work
 
 adsf
 
@@ -29,6 +30,18 @@ adsf
 
 adsf
 
-==== Part III: 
+===== Relationships: An approach to establishing trust with your direct reports
+
+asdf
+
+===== Guidance: Ideas for getting/giving/encouraging praise and criticism
+
+adsf
+
+===== Team: Techniques for avoiding boredom and burnout
+
+adsf
+
+===== Results: Things you can do to get stuff done together - faster
 
 asdf
