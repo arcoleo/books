@@ -3,3 +3,5 @@
 == Business
 
 include::books/Nail_It_Then_Scale_It.asciidoc[Nail It, Then Scale It]
+
+link:books/Nail_It_Then_Scale_It.asciidoc[Test]
