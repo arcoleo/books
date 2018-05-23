@@ -13,7 +13,7 @@ books_list = []
 
 def generate_output(args, books, grouping='subject'):
     output = ['= Welcome to the Books Wiki']
-    output.append('  David Arcoleo <david@arcoleo.org>')
+    output.append('David Arcoleo <david@arcoleo.org>')
 
     outline = {}
 
@@ -25,24 +25,26 @@ def generate_output(args, books, grouping='subject'):
         prefix = ''
 
     for book in books:
-        # Get subjects
-        # print('--%s' % book)
-        curr_subjects = book.get('subjects')
-        for subject in curr_subjects:
-            if subject in outline.keys():
-                outline[subject]['books'].append({
+        # Get subjects / ratings
+        
+        curr_topic_index = 'subjects'
+        curr_topics = book.get(curr_topic_index)
+        for curr_item in curr_topics:
+            if curr_item in outline.keys():
+                outline[curr_topic_index]['books'].append({
                     'title': book.get('title'), 
                     'filename': book.get('filename'),
                     'authors': '; '.join(book.get('authors'))
                 })
             else:
-                outline[subject] = {
+                outline[curr_topic_index] = {
                     'level': 2, 
                     'books': [{
                         'title': book.get('title'), 
                         'filename': book.get('filename'),
                         'authors': '; '.join(book.get('authors'))
                     }]}
+        
 
     for topic, value in sorted(outline.items()):
         # print(topic)
@@ -122,6 +124,7 @@ def main():
                     dsa_dict['title'] = current_title
                     dsa_dict['filename'] = curr_file
                     dsa_dict['authors'] = current_authors
+                    dsa_dict['rating'] = dsa_dict.get('rating', 0)
                     books_list.append(dsa_dict)
                     # print(dsa_dict)
 

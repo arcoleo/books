@@ -1,33 +1,7 @@
 = Welcome to the Books Wiki
-  David Arcoleo <david@arcoleo.org>
+David Arcoleo <david@arcoleo.org>
 
-== Business
+== subjects
 |====================
-| link:books/Answering_the_Ultimate_Question.asciidoc[Answering The Ultimate Question] | Richard Owen; Melissa Edris
-| link:books/Boundries_for_Leaders.asciidoc[Boundries for Leaders] | Henry Cloud
-| link:books/Business_Model_Generation.asciidoc[Business Model Generation] | Alexander Osterwalder; Yves Pigneur
-| link:books/Certain_To_Win.asciidoc[Certain To Win] | Chet Richards
-| link:books/Chaos_Monkeys.asciidoc[Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley] | Antonio Garcia Martinez
-| link:books/Elon_Musk.asciidoc[Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future] | Ashlee Vance; Fred Sanders
-| link:books/Good_Strategy_Bad_Strategy.asciidoc[Good Strategy/Bad Strategy: The Difference and Why It Matters] | Richard P. Rumelt; Sean Runnette
-| link:books/Hello_Startup.asciidoc[Hello, Startup: A Programmer's Guide to Building Products, Technologies, and Teams] | Yevgeniy Brikman
-| link:books/How_To_Be_A_Chief_Operating_Officer.asciidoc[How to be a Chief Operating Officer: 16 Disciplines for Success] | Jennifer Geary
-| link:books/How_To_Be_The_Startup_Hero.asciidoc[How to Be the Startup Hero] | Tim Draper
-| link:books/Nail_It_Then_Scale_It.asciidoc[Nail It then Scale It: The Entrepreneur's Guide to Creating and Managing Breakthrough Innovation: The lean startup book to help entrepreneurs launch a high-growth business] | Nathan Furr; Paul Ahlstrom
-| link:books/Radical_Candor.asciidoc[Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity] | Kim Scott
-| link:books/Shipping_Greatness.asciidoc[Shipping Greatness: Practical lessons on building and launching outstanding software, learned on the job at Google and Amazon] | Chris Vander Mey
-| link:books/Sprint.asciidoc[Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days] | Jake Knapp; John Zeratsky
-| link:books/Startup_Playbook.asciidoc[Startup Playbook] | Sam Altman; Gregory Koberger
-| link:books/The_Advantage.asciidoc[The Advantage: Why Organizational Health Trumps Everything Else in Business] | Patrick Lencioni
-| link:books/The_Entrepreneur_Mind.asciidoc[The Entrepreneur Mind: 100 Essential Beliefs, Characteristics, and Habits of Elite Entrepreneurs] | Kevin D. Johnson
-| link:books/The_Founders_Dilemnas.asciidoc[The Founder's Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup] | Noam Wasserman
-| link:books/The_Four_Steps_to_the_Epiphany.asciidoc[The Four Steps to the Epiphany] | Steve Blank
-| link:books/The_Lean_Startup.asciidoc[The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses] | Eric Ries
-| link:books/The_Management_Myth.asciidoc[The Management Myth: Why the 'Experts' Keep Getting It Wrong] | Matthew Stewart; William Hughes
-| link:books/The_New_One_Minute_Manager.asciidoc[The New One Minute Manager] | Ken Blanchard; Dan Woren
-| link:books/The_Startup_J_Curve.asciidoc[The Start-Up J Curve: The Six Steps to Entrepreneurial Success] | Howard Love; Chris Abell
-| link:books/The_Startup_Owners_Manual.asciidoc[The Startup Owner's Manual: The Step-by-Step Guide for Building a Great Company] | Steve Blank; Bob Dorf
-| link:books/The_Startups.asciidoc[The Startups] | 
-| link:books/The_Why_of_Work.asciidoc[The Why of Work: How Great Leaders Build Abundant Organizations that Win] | Dave Ulrich; Kevin T. Collins
 | link:books/Zero_to_One.asciidoc[Zero to One: Notes on Startups, or How to Build the Future] | Peter Thiel; Blake Masters
 |====================
