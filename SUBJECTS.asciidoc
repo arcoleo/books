@@ -1,7 +1,7 @@
 = Welcome to the Books Wiki
 David Arcoleo <david@arcoleo.org>
 
-== rating
+== subjects
 |====================
 | link:books/Zero_to_One.asciidoc[Zero to One: Notes on Startups, or How to Build the Future] | Peter Thiel; Blake Masters
 |====================

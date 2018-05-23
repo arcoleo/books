@@ -11,7 +11,7 @@ from pprint import pprint
 books_list = []
 # parse_tags(tag_dict):
 
-def generate_output(args, books, grouping='subject'):
+def generate_output(args, books, grouping='subjects'):
     output = ['= Welcome to the Books Wiki']
     output.append('David Arcoleo <david@arcoleo.org>')
 
@@ -27,8 +27,12 @@ def generate_output(args, books, grouping='subject'):
     for book in books:
         # Get subjects / ratings
         
-        curr_topic_index = 'subjects'
+        curr_topic_index = grouping
         curr_topics = book.get(curr_topic_index)
+        # only one rating, so make it a list of one item so iterator doesn't break
+        if isinstance(curr_topics, int):
+            curr_topics = [curr_topics]
+            
         for curr_item in curr_topics:
             if curr_item in outline.keys():
                 outline[curr_topic_index]['books'].append({
@@ -132,7 +136,7 @@ def main():
     # pprint(books_list)
 
     # print('--- Generated ---')
-    generate_output(args, books_list, grouping='subject')
+    generate_output(args, books_list, grouping='subjects')
     generate_output(args, books_list, grouping='rating')
 
 if __name__ == '__main__':
