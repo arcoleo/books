@@ -77,8 +77,8 @@ def generate_output(args, books, grouping='subjects'):
             line = '%s%s%s%s' % (prefix, title, divider, authors)
             output.append(line)
 
-    if args.table:
-        output.append('|====================')    
+        if args.table:
+            output.append('|====================')    
 
     for line in output:
         print(line)

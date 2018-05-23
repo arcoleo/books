@@ -29,6 +29,7 @@ David Arcoleo <david@arcoleo.org>
 | link:books/The_Startups.asciidoc[The Startups] | 
 | link:books/The_Why_of_Work.asciidoc[The Why of Work: How Great Leaders Build Abundant Organizations that Win] | Dave Ulrich; Kevin T. Collins
 | link:books/Zero_to_One.asciidoc[Zero to One: Notes on Startups, or How to Build the Future] | Peter Thiel; Blake Masters
+|====================
 
 == 4
 |====================
