@@ -32,26 +32,34 @@ def generate_output(args, books, grouping='subjects'):
         # only one rating, so make it a list of one item so iterator doesn't break
         if isinstance(curr_topics, int):
             curr_topics = [curr_topics]
-            
+        logging.warning(curr_topics)
+        logging.warning(outline)
         for curr_item in curr_topics:
             if curr_item in outline.keys():
-                outline[curr_topic_index]['books'].append({
+                outline[curr_item]['books'].append({
                     'title': book.get('title'), 
                     'filename': book.get('filename'),
-                    'authors': '; '.join(book.get('authors'))
+                    'authors': '; '.join(book.get('authors', []))
                 })
             else:
-                outline[curr_topic_index] = {
-                    'level': 2, 
-                    'books': [{
-                        'title': book.get('title'), 
-                        'filename': book.get('filename'),
-                        'authors': '; '.join(book.get('authors'))
-                    }]}
+                try:
+                    outline[curr_item] = {
+                        'level': 2, 
+                        'books': [{
+                            'title': book.get('title'), 
+                            'filename': book.get('filename'),
+                            'authors': '; '.join(book.get('authors', []))
+                        }]}
+                except Exception as e:
+                    logging.error(e)
+                    logging.error(book)
+                    logging.error(curr_topics)
+                    raise
         
 
     for topic, value in sorted(outline.items()):
         # print(topic)
+        logging.warning(topic)
         
         output.append('')
         level = '=' * value['level']
@@ -60,6 +68,7 @@ def generate_output(args, books, grouping='subjects'):
             output.append('|====================')
         # print('--! %s' % value)
         for book in value['books']:
+            # logging.debug(book)
             # print('----! %s' % str(book))
             if not args.table:
                 output.append('')
@@ -133,7 +142,7 @@ def main():
                     # print(dsa_dict)
 
     # print('--- Books List ---')
-    # pprint(books_list)
+    pprint(books_list)
 
     # print('--- Generated ---')
     generate_output(args, books_list, grouping='subjects')
