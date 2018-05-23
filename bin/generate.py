@@ -24,6 +24,11 @@ def generate_output(args, books, grouping='subjects'):
         divider = ', '
         prefix = ''
 
+    if grouping == 'rating':
+        reverse = True
+    else:
+        reverse = False
+
     for book in books:
         # Get subjects / ratings
         
@@ -57,7 +62,7 @@ def generate_output(args, books, grouping='subjects'):
                     raise
         
 
-    for topic, value in sorted(outline.items()):
+    for topic, value in sorted(outline.items(), reverse=reverse):
         # print(topic)
         logging.warning(topic)
         
