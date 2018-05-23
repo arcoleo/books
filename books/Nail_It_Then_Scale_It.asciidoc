@@ -3,4 +3,46 @@ Nathan Furr; Paul Ahlstrom
 
 :dsa: {'subjects': ['Business'], 'rating': 4}
 
-Testing
+==== Chapter 1: The Entrepeneur's Paradox
+
+-
+
+==== Chapter 2: The Mystery of Market Winning Innovation
+
+-
+
+==== Chapter 3: Nail It then Scale It - Fundamentals
+
+-
+
+==== Phase 1: Nailing the Customer Pain
+
+-
+
+==== Phase 2: Nail the Solution
+
+-
+
+==== Phase 3: Nail the Go-to-Market Strategy
+
+-
+
+==== Phase 4: Nail the Business Model
+
+-
+
+==== Phase 5: Scale It
+
+-
+
+==== Chapter 9: Context Matters!
+
+-
+
+==== Chapter 10: Crisis and Focus
+
+-
+
+==== Appendix: Nail It then Scale It Checklist
+
+-

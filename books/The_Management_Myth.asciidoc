@@ -3,4 +3,22 @@ Matthew Stewart; William Hughes
 
 :dsa: {'subjects': ['Business'], 'rating': 4}
 
-Testing
+==== 1. Doing Things With Numbers
+
+-
+
+==== 2. Putting People First
+
+-
+
+==== 3. Thinking Ahead
+
+-
+
+==== 4. Striving for Excellence
+
+-
+
+==== The Future of Management Education
+
+-

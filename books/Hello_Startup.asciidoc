@@ -3,4 +3,62 @@ Yevgeniy Brikman
 
 :dsa: {'subjects': ['Business'], 'rating': 3}
 
-Testing
+==== Part I: Products
+
+.
+
+===== 1. Why Startups
+
+.
+
+===== 2. Startup Ideas
+
+.
+
+===== 3. Product Design
+
+.
+
+===== 4. Data and Distribution
+
+.
+
+==== Part II: Technologies
+
+.
+
+===== 5. Picking a Tech Stack
+
+.
+
+===== 6. Clean Code
+
+.
+
+===== 7. Scalability
+
+.
+
+===== 8. Software Delivery
+
+.
+
+==== Part III: Teams
+
+.
+
+===== 9. Startup Culture
+
+.
+
+===== 10. Getting a Job at a Startup
+
+.
+
+===== 11. Hiring for Your Startup
+
+.
+
+===== 12. Learning
+
+.
