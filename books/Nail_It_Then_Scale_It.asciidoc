@@ -1,6 +1,6 @@
 === Nail It then Scale It: The Entrepreneur's Guide to Creating and Managing Breakthrough Innovation: The lean startup book to help entrepreneurs launch a high-growth business
 Nathan Furr; Paul Ahlstrom
 
-:dsa: {'subjects': ['Business']}
+:dsa: {'subjects': ['Business'], 'rating': 4}
 
 Testing

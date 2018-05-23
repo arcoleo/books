@@ -1,6 +1,6 @@
 === The Management Myth: Why the 'Experts' Keep Getting It Wrong
 Matthew Stewart; William Hughes
 
-:dsa: {'subjects': ['Business']}
+:dsa: {'subjects': ['Business'], 'rating': 4}
 
 Testing
