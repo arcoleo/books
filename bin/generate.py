@@ -11,7 +11,7 @@ from pprint import pprint
 books_list = []
 # parse_tags(tag_dict):
 
-def generate_output(args, books):
+def generate_output(args, books, grouping='subject'):
     output = ['= Welcome to the Books Wiki']
     output.append('  David Arcoleo <david@arcoleo.org>')
 
@@ -65,14 +65,13 @@ def generate_output(args, books):
     if args.table:
         output.append('|====================')    
 
-
-    # pprint(outline)
-
-    # print('------')
-    
     for line in output:
         print(line)
-    
+
+    outfile = '%s.asciidoc' % grouping.upper()
+    with open(outfile, 'w') as fp:
+        fp.write("\n".join(output))
+
 
 def read_args():
     parser = argparse.ArgumentParser()
@@ -130,7 +129,8 @@ def main():
     # pprint(books_list)
 
     # print('--- Generated ---')
-    generate_output(args, books_list)
+    generate_output(args, books_list, grouping='subject')
+    generate_output(args, books_list, grouping='rating')
 
 if __name__ == '__main__':
     main()
